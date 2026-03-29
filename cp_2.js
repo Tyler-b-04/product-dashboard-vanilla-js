@@ -40,7 +40,7 @@ function displayProducts(products) {
     productContainer.appendChild(card);
   });
 }
-// Errors
+// Async + await functions + error message
 function handleError(error) {
   console.log(`An error has occurred: ${error.message}`);
 }
